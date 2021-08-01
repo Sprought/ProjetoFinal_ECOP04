@@ -1,0 +1,58 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"26 atraso.c
+[; ;atraso.c: 26: void atraso_ms(unsigned int valor)
+[v _atraso_ms `(v ~T0 @X0 1 ef1`ui ]
+"27
+[; ;atraso.c: 27: {
+{
+[e :U _atraso_ms ]
+"26
+[; ;atraso.c: 26: void atraso_ms(unsigned int valor)
+[v _valor `ui ~T0 @X0 1 r1 ]
+"27
+[; ;atraso.c: 27: {
+[f ]
+"28
+[; ;atraso.c: 28: unsigned int i;
+[v _i `ui ~T0 @X0 1 a ]
+"29
+[; ;atraso.c: 29: unsigned char j;
+[v _j `uc ~T0 @X0 1 a ]
+"31
+[; ;atraso.c: 31:  for (i =0; i< valor; i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $U 5  ]
+[e :U 2 ]
+"32
+[; ;atraso.c: 32:  {
+{
+"34
+[; ;atraso.c: 34:   for (j =0 ; j < 200; j++)
+{
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 200 `i 6  ]
+[e $U 7  ]
+[e :U 6 ]
+"35
+[; ;atraso.c: 35:    {
+{
+"38
+[; ;atraso.c: 38:    }
+}
+[e ++ _j -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 200 `i 6  ]
+[e :U 7 ]
+}
+"39
+[; ;atraso.c: 39:  }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 5 ]
+[e $ < _i _valor 2  ]
+[e :U 3 ]
+}
+"40
+[; ;atraso.c: 40: }
+[e :UE 1 ]
+}

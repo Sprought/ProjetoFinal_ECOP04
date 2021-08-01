@@ -1,0 +1,478 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"26 C:\MPLABProjects\projetoCel.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"29 C:\MPLABProjects\projetoCel.X\i2c.c
+[v _delay delay `(v  1 e 1 0 ]
+"46
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"54
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"62
+[v _i2c_wb i2c_wb `(v  1 e 1 0 ]
+"78
+[v _i2c_rb i2c_rb `(uc  1 e 1 0 ]
+"25 C:\MPLABProjects\projetoCel.X\keypad.c
+[v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
+"30 C:\MPLABProjects\projetoCel.X\lcd.c
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+"34
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"44
+[v _lcd_pos lcd_pos `(v  1 e 1 0 ]
+"65
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+"75
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"93
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+"36 C:\MPLABProjects\projetoCel.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"106
+[v _menu menu `(v  1 e 1 0 ]
+"154
+[v _mensagem mensagem `(v  1 e 1 0 ]
+"480
+[v _ligacao ligacao `(v  1 e 1 0 ]
+"606
+[v _simulaMensagem simulaMensagem `(v  1 e 1 0 ]
+"636
+[v _simulaChamada simulaChamada `(v  1 e 1 0 ]
+"713
+[v _imprimeSimbolo imprimeSimbolo `(v  1 e 1 0 ]
+"32 C:\MPLABProjects\projetoCel.X\rtc_r.c
+[v _getd getd `(uc  1 e 1 0 ]
+"36
+[v _getu getu `(uc  1 e 1 0 ]
+"42
+[v _rtc_r rtc_r `(v  1 e 1 0 ]
+"271 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4520.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"450
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S147 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"497
+[s S187 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S196 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S205 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S209 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S213 . 1 `S147 1 . 1 0 `S187 1 . 1 0 `S196 1 . 1 0 `S205 1 . 1 0 `S209 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES213  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S60 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669
+[s S69 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S78 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S83 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S86 . 1 `S60 1 . 1 0 `S69 1 . 1 0 `S78 1 . 1 0 `S83 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES86  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+[s S425 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"832
+[s S430 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S435 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S437 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S440 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S443 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S446 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S451 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S456 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S461 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S466 . 1 `S425 1 . 1 0 `S430 1 . 1 0 `S435 1 . 1 0 `S437 1 . 1 0 `S440 1 . 1 0 `S443 1 . 1 0 `S446 1 . 1 0 `S451 1 . 1 0 `S456 1 . 1 0 `S461 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES466  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S138 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1953
+[u S156 . 1 `S138 1 . 1 0 `S147 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES156  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"23 C:\MPLABProjects\projetoCel.X\keypad.c
+[v _linha linha `C[4]uc  1 e 4 0 ]
+"12 C:\MPLABProjects\projetoCel.X\main.c
+[v _condRetornaInicial condRetornaInicial `uc  1 e 1 0 ]
+"13
+[v _identificaSinal identificaSinal `uc  1 e 1 0 ]
+"15
+[v _listaLetras listaLetras `[65]uc  1 e 65 0 ]
+"29 C:\MPLABProjects\projetoCel.X\rtc_r.c
+[v _date date `VE[10]uc  1 e 10 0 ]
+"30
+[v _time time `VE[10]uc  1 e 10 0 ]
+"36 C:\MPLABProjects\projetoCel.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+[v main@mensg mensg `[32]uc  1 a 32 32 ]
+"52
+[v main@teleph teleph `[32]uc  1 a 32 0 ]
+"38
+[v main@i i `uc  1 a 1 65 ]
+[v main@tecla tecla `uc  1 a 1 64 ]
+"49
+[v main@F2384 F2384 `[32]uc  1 s 32 F2384 ]
+"52
+[v main@F2386 F2386 `[32]uc  1 s 32 F2386 ]
+"103
+} 0
+"606
+[v _simulaMensagem simulaMensagem `(v  1 e 1 0 ]
+{
+"608
+[v simulaMensagem@tecla tecla `uc  1 a 1 16 ]
+"634
+} 0
+"636
+[v _simulaChamada simulaChamada `(v  1 e 1 0 ]
+{
+"638
+[v simulaChamada@tecla tecla `uc  1 a 1 21 ]
+[v simulaChamada@buzz buzz `uc  1 a 1 20 ]
+[v simulaChamada@i i `uc  1 a 1 19 ]
+[v simulaChamada@tempo tempo `uc  1 a 1 18 ]
+[v simulaChamada@atender atender `uc  1 a 1 17 ]
+"637
+[v simulaChamada@old_TC old_TC `uc  1 a 1 16 ]
+"711
+} 0
+"42 C:\MPLABProjects\projetoCel.X\rtc_r.c
+[v _rtc_r rtc_r `(v  1 e 1 0 ]
+{
+"43
+[v rtc_r@tmp tmp `uc  1 a 1 9 ]
+"85
+} 0
+"62 C:\MPLABProjects\projetoCel.X\i2c.c
+[v _i2c_wb i2c_wb `(v  1 e 1 0 ]
+{
+[v i2c_wb@val val `uc  1 a 1 wreg ]
+"63
+[v i2c_wb@i i `uc  1 a 1 7 ]
+"62
+[v i2c_wb@val val `uc  1 a 1 wreg ]
+"64
+[v i2c_wb@val val `uc  1 a 1 6 ]
+"76
+} 0
+"54
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"60
+} 0
+"46
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"52
+} 0
+"78
+[v _i2c_rb i2c_rb `(uc  1 e 1 0 ]
+{
+[v i2c_rb@ack ack `uc  1 a 1 wreg ]
+"79
+[v i2c_rb@i i `uc  1 a 1 8 ]
+"80
+[v i2c_rb@ret ret `uc  1 a 1 7 ]
+"78
+[v i2c_rb@ack ack `uc  1 a 1 wreg ]
+"80
+[v i2c_rb@ack ack `uc  1 a 1 6 ]
+"102
+} 0
+"29
+[v _delay delay `(v  1 e 1 0 ]
+{
+"30
+[v delay@i i `ui  1 a 2 0 ]
+"31
+[v delay@k k `VEuc  1 a 1 3 ]
+[v delay@j j `VEuc  1 a 1 2 ]
+"38
+} 0
+"36 C:\MPLABProjects\projetoCel.X\rtc_r.c
+[v _getu getu `(uc  1 e 1 0 ]
+{
+[v getu@nn nn `uc  1 a 1 wreg ]
+[v getu@nn nn `uc  1 a 1 wreg ]
+[v getu@nn nn `uc  1 a 1 0 ]
+"38
+} 0
+"32
+[v _getd getd `(uc  1 e 1 0 ]
+{
+[v getd@nn nn `uc  1 a 1 wreg ]
+[v getd@nn nn `uc  1 a 1 wreg ]
+[v getd@nn nn `uc  1 a 1 0 ]
+"34
+} 0
+"106 C:\MPLABProjects\projetoCel.X\main.c
+[v _menu menu `(v  1 e 1 0 ]
+{
+"107
+[v menu@tecla tecla `uc  1 a 1 107 ]
+[v menu@tempo tempo `uc  1 a 1 106 ]
+"152
+} 0
+"154
+[v _mensagem mensagem `(v  1 e 1 0 ]
+{
+"158
+[v mensagem@mensagem mensagem `[64]uc  1 a 64 18 ]
+[v mensagem@numero numero `[12]uc  1 a 12 84 ]
+[v mensagem@letra letra `uc  1 a 1 103 ]
+[v mensagem@tecla tecla `uc  1 a 1 102 ]
+[v mensagem@contN contN `uc  1 a 1 101 ]
+[v mensagem@coluna coluna `uc  1 a 1 100 ]
+[v mensagem@tempo tempo `uc  1 a 1 99 ]
+[v mensagem@linha linha `uc  1 a 1 98 ]
+[v mensagem@contMSG contMSG `uc  1 a 1 97 ]
+[v mensagem@i i `uc  1 a 1 96 ]
+[v mensagem@old_TC old_TC `uc  1 a 1 82 ]
+"478
+} 0
+"480
+[v _ligacao ligacao `(v  1 e 1 0 ]
+{
+"485
+[v ligacao@numero numero `[12]uc  1 a 12 21 ]
+[v ligacao@contN contN `uc  1 a 1 36 ]
+[v ligacao@tecla tecla `uc  1 a 1 35 ]
+[v ligacao@i i `uc  1 a 1 34 ]
+[v ligacao@buzz buzz `uc  1 a 1 33 ]
+[v ligacao@tempo tempo `uc  1 a 1 20 ]
+[v ligacao@ligar ligar `uc  1 a 1 19 ]
+"481
+[v ligacao@old_TC old_TC `uc  1 a 1 18 ]
+"604
+} 0
+"25 C:\MPLABProjects\projetoCel.X\keypad.c
+[v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
+{
+"26
+[v tc_tecla@to to `ui  1 a 2 7 ]
+"27
+[v tc_tecla@i i `uc  1 a 1 14 ]
+"28
+[v tc_tecla@ret ret `uc  1 a 1 13 ]
+"31
+[v tc_tecla@old_TB old_TB `uc  1 a 1 12 ]
+[v tc_tecla@old_TD old_TD `uc  1 a 1 11 ]
+[v tc_tecla@old_D old_D `uc  1 a 1 10 ]
+"29
+[v tc_tecla@tmp tmp `uc  1 a 1 9 ]
+"25
+[v tc_tecla@timeout timeout `ui  1 p 2 5 ]
+"87
+} 0
+"93 C:\MPLABProjects\projetoCel.X\lcd.c
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+{
+"94
+[v lcd_str@i i `uc  1 a 1 15 ]
+[v lcd_str@j j `uc  1 a 1 14 ]
+[v lcd_str@lin lin `uc  1 a 1 13 ]
+"93
+[v lcd_str@str str `*.35Cuc  1 p 2 9 ]
+"108
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"713 C:\MPLABProjects\projetoCel.X\main.c
+[v _imprimeSimbolo imprimeSimbolo `(v  1 e 1 0 ]
+{
+[v imprimeSimbolo@val val `uc  1 a 1 wreg ]
+[v imprimeSimbolo@val val `uc  1 a 1 wreg ]
+[v imprimeSimbolo@val val `uc  1 a 1 9 ]
+"729
+} 0
+"44 C:\MPLABProjects\projetoCel.X\lcd.c
+[v _lcd_pos lcd_pos `(v  1 e 1 0 ]
+{
+[v lcd_pos@lin lin `uc  1 a 1 wreg ]
+"45
+[v lcd_pos@val val `ui  1 a 2 6 ]
+"44
+[v lcd_pos@lin lin `uc  1 a 1 wreg ]
+[v lcd_pos@col col `uc  1 p 1 5 ]
+"47
+[v lcd_pos@lin lin `uc  1 a 1 8 ]
+"63
+} 0
+"65
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+{
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+[v lcd_dat@val val `uc  1 a 1 5 ]
+"73
+} 0
+"75
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"91
+} 0
+"34
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+[v lcd_cmd@val val `uc  1 a 1 5 ]
+"42
+} 0
+"30
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+{
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+[v lcd_wr@val val `uc  1 a 1 0 ]
+"32
+} 0
+"26 C:\MPLABProjects\projetoCel.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+{
+"28
+[v atraso_ms@i i `ui  1 a 2 2 ]
+"29
+[v atraso_ms@j j `uc  1 a 1 4 ]
+"26
+[v atraso_ms@valor valor `ui  1 p 2 0 ]
+"40
+} 0
